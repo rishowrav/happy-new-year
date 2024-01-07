@@ -1,0 +1,146 @@
+/************* General Style *************/
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: "Inter", sans-serif;
+  font-family: "Merriweather", serif; */
+}
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+/************* Header Section *************/
+.header-banner {
+  width: 1100px;
+  height: 500px;
+  margin: 50px auto 0;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.9),
+      rgba(255, 255, 255, 0)
+    ),
+    url("../images/Banner-Image-small.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-text {
+  text-align: center;
+}
+.header-text h2 {
+  font-family: "Merriweather", serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.header-text h1 {
+  font-family: "Merriweather", serif;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 80px;
+}
+/************* Main Section *************/
+/************* OFF Section *************/
+.off-section {
+  text-align: center;
+  margin: 100px 0;
+}
+.off-section h2 {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.off-section h5 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 30px 0 10px;
+}
+.off-section h3 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.off-section img {
+  width: 600px;
+  height: auto;
+}
+
+/************* Welcome Section *************/
+.welcome-section {
+  height: 500px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 100px 0;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.9),
+      rgba(255, 255, 255, 0)
+    ),
+    url("../images/Vectorrr-small.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.welcome-text {
+  width: 55%;
+}
+.welcome-text h2 {
+  color: #ffffff;
+  font-family: "Merriweather", serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 80px; /* 137.5% */
+  letter-spacing: 7.04px;
+}
+.welcome-text p {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin: 20px 0 50px;
+}
+.welcome-text a {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.welcome-img {
+  width: 25%;
+}
+.welcome-img img {
+  width: 270px;
+}
+/************* Footer Section *************/
