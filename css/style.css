@@ -276,6 +276,73 @@
   margin: 10px 0 30px;
 }
 
+/************* Holidays Section *************/
+.holidays-section {
+  margin-bottom: 100px;
+}
+.holidays-section h5 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+.holidays-section h2 span {
+  color: #f00;
+}
+.holidays-section h2 {
+  text-align: center;
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin: 10px 0 30px;
+}
+.holidays-section p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  margin-bottom: 50px;
+}
+.holi-boxs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.holi-box2 {
+  position: relative;
+}
+.holi-box2 .h-img1 {
+  width: 350px;
+  margin-bottom: -4px;
+}
+.holi-box2 .h-img2 {
+  position: absolute;
+  left: -129px;
+  top: 52px;
+  width: 251px;
+}
+.holi-box1 {
+  position: relative;
+}
+.holi-box1 img {
+  position: absolute;
+  top: 24%;
+  left: 109px;
+  width: 500px;
+}
+.red-color img {
+  box-sizing: border-box;
+  width: 100%;
+}
 /************* Portfolio Section *************/
 .portfolio-section {
   margin-bottom: 100px;
