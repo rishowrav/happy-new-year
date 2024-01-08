@@ -143,4 +143,175 @@
 .welcome-img img {
   width: 270px;
 }
+
+/************* Join Section *************/
+.join-section {
+  text-align: center;
+  background-image: linear-gradient(
+    to bottom,
+    #ffc0cb,
+    #fcd0e2,
+    #f8e1f3,
+    #f8f1fc,
+    #ffffff
+  );
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+.join-section h2 span {
+  color: #f00;
+}
+.join-section h2 {
+  color: #070211;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.join-section a {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #f00;
+  text-decoration: none;
+  margin-top: 40px;
+}
+
+/************* Portfolio Section *************/
+.portfolio-section {
+  margin-bottom: 100px;
+}
+.portfolio-text h5 {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.portfolio-text h2 {
+  color: #070211;
+  font-family: "Merriweather";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+.portfolio-text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter";
+  font-size: 18x;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 10px 0 40px;
+}
+.portfolio-boxs {
+  display: flex;
+  justify-content: space-between;
+}
+.portfolio-boxs:nth-child(3) {
+  margin-top: 10px;
+}
+.port-box {
+  width: 32.5%;
+}
+.port-box img {
+  width: 100%;
+  height: auto;
+}
+
+/************* Subscribe Section *************/
+.subscribe-section {
+  background: rgba(255, 0, 0, 0.05);
+  border-radius: 20px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sub-text {
+  text-align: center;
+}
+.sub-text img {
+  width: 130px;
+  flex-shrink: 0;
+}
+.sub-text h2 {
+  color: #070211;
+  font-family: "Merriweather";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+.sub-text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  margin: 10px 0 40px;
+}
+.input-group {
+  display: flex;
+  justify-content: center;
+}
+.sub-text input[type="submit"] {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  width: 210px;
+  height: 65px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  border: none;
+  cursor: pointer;
+  margin-left: -4px;
+}
+.sub-text input[type="email"] {
+  color: rgba(7, 2, 17, 0.3);
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 300px;
+  height: 65px;
+  border-radius: 50px 0px 0px 50px;
+  background: #fff;
+  border: none;
+  padding: 0 30px;
+}
+.sub-text input[type="email"]:focus {
+  border: 2px solid red !important;
+  box-shadow: none !important;
+}
+
 /************* Footer Section *************/
