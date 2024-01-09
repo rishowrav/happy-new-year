@@ -527,12 +527,15 @@ footer p {
   height: 50px;
 }
 .f-social {
-  margin: 50px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  margin: 30px 0;
 }
 .f-social ul {
   list-style: none;
   display: flex;
   justify-content: center;
+  margin: 20px 0;
 }
 .f-social ul li {
   margin: 0 15px;
