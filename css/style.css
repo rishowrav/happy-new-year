@@ -150,6 +150,11 @@
   padding: 10px 30px;
   border-radius: 5px;
 }
+.welcome-text a:hover {
+  background: #f00;
+  border: 1px solid #f00;
+  transition: 0.2s;
+}
 .welcome-img {
   width: 25%;
 }
@@ -204,8 +209,14 @@
   background: #f00;
   text-decoration: none;
   margin-top: 40px;
+  border: 1px solid transparent;
 }
-
+.join-section a:hover {
+  border: 1px solid #f00;
+  background: transparent;
+  color: #f00;
+  transition: 0.3s;
+}
 /************* Comming Section *************/
 
 .comming-section {
@@ -445,6 +456,13 @@
   border: none;
   cursor: pointer;
   margin-left: -4px;
+  transition: 0.3s;
+  border: 1px solid transparent;
+}
+.sub-text input[type="submit"]:hover {
+  color: #f00;
+  background: white;
+  border: 1px solid #f00;
 }
 .sub-text input[type="email"] {
   color: rgba(7, 2, 17, 0.3);
