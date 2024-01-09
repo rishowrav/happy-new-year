@@ -394,10 +394,18 @@
 }
 .port-box {
   width: 32.5%;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.port-box:hover img {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 .port-box img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  transition: 0.5s;
 }
 
 /************* Subscribe Section *************/
